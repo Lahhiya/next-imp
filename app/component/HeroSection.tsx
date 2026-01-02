@@ -5,21 +5,21 @@ export default function HeroSection(){
       <section className="container-lg w-full h-100 flex justify-center ">
         <div className=" text-center  flex flex-col items-center justify-center">
           <h1 className="text-center  md-2 text-zinc-900">
-            <span className="text-8xl font-google-sans font-semibold">
+            <span className="text-5xl md:text-8xl font-google-sans font-semibold">
               Welcome
             </span>
           </h1>
           <h2 className="text-center mt-2 mb-5 text-zinc-900">
-            <span className="text-3xl font-lato font-semibold  text-shadow-zinc-500">
+            <span className="text-md md:text-3xl font-lato font-semibold text-shadow-zinc-500">
               Lorem ipsum dolor sit amet.
             </span>
           </h2>
-          <div className="flex gap-3 justify-center my-2">
-            <button className="flex gap-2 py-2 align-center items-center bg-black text-white border border-gray-800 p-3 px-5 rounded-2xl h-auto font-medium capitalize text-md text-lg hover:bg-zinc-900 hover:text-slate-100 hover:scale-105 cursor-pointer">
+          <div className="flex gap-3 justify-center my-1 md:my-2">
+            <button className="hero-cta bg-black text-white border hover:bg-zinc-900 hover:text-slate-100">
               <span className="align-center">Learn more</span>
               <span>
                 <svg
-                  className="w-[20px] h-[20px] text-white"
+                  className="w-[10px] h-[10px] md:w-[20px] md:h-[20px]text-white"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -37,11 +37,11 @@ export default function HeroSection(){
                 </svg>
               </span>
             </button>
-            <button className="flex gap-2 py-2 align-center items-center bg-slate-100 text-gray-800 border border-gray-800 p-3 px-5 rounded-2xl h-auto font-medium capitalize text-md text-lg hover:bg-slate-50 hover:text-zinc-800 hover:scale-105 cursor-pointer">
+            <button className="hero-cta text-gray-800 bg-slate-100 hover:bg-gray-200 hover:text-gray-700">
               <span className="align-center">Contact</span>
               <span>
                 <svg
-                  className="w-[20px] h-[20px] text-gray-800 "
+                  className="w-[10px] h-[10px] md:w-[20px] md:h-[20px] text-gray-800 "
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"

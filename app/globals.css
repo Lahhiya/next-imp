@@ -31,3 +31,7 @@ body {
     conic-gradient(from  -60deg at 50% calc(100%/3),var(--c1) 120deg,var(--c2) 0 240deg,var(--c3) 0);
   background-size: calc(var(--s)*sqrt(3)) var(--s);
 }
+
+.hero-cta{
+  @apply flex justify-center h-auto items-center rounded-2xl py-2 px-2 gap-1.5 font-medium capitalize text-xs md:text-lg border-2 border-gray-400 hover:scale-105 cursor-pointer;
+}
