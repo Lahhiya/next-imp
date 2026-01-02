@@ -2,7 +2,7 @@
 
 export default function HeroSection(){
     return (
-      <section className="container-lg w-full h-100 flex justify-center ">
+      <section className="container-lg w-full h-screen flex justify-center ">
         <div className=" text-center  flex flex-col items-center justify-center">
           <h1 className="text-center  md-2 text-zinc-900">
             <span className="text-5xl md:text-8xl font-google-sans font-semibold">
@@ -19,7 +19,7 @@ export default function HeroSection(){
               <span className="align-center">Learn more</span>
               <span>
                 <svg
-                  className="w-[10px] h-[10px] md:w-[20px] md:h-[20px]text-white"
+                  className="w-[10px] h-[10px] md:w-[20px] md:h-[20px] text-white"
                   aria-hidden="true"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"

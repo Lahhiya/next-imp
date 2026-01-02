@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono,Lato} from "next/font/google";
+import { Geist, Geist_Mono, Lato } from "next/font/google";
 import "./globals.css";
-import Navbar from "./component/Navbar";
+import Navbar from "./components/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,13 +17,12 @@ const lato = Lato({
   variable: "--font-lato",
   subsets: ["latin"],
   weight: ["100", "300", "400", "700", "900"],
-})
+});
 
 export const metadata: Metadata = {
   title: "entah jir",
   description: "lorem ipsum dolor sit amet consectetur adipisicing elit",
 };
-
 
 export default function RootLayout({
   children,

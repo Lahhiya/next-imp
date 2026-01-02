@@ -5,7 +5,7 @@ import amiya from "@/public/amiya.svg"
 
 export default function Navbar(){
     return (
-      <div className="container-lg flex items-center sticky z-20  top-0 max-w-screen mx-auto h-14 md:px-15 px-5 gap-8 justify-between bg-slate-100 shadow-sm shadow-slate-200">
+      <div className="container-lg flex items-center sticky z-20  top-0 max-w-screen mx-auto h-16 md:px-15 px-5 gap-8 justify-between bg-slate-100 shadow-sm shadow-slate-200">
         <Link className="flex items-center w-2/12 gap-4" href={"/"}>
           <Image src={amiya} alt="amiya icon" className="w-auto h-8 md:h-10" ></Image>
           <h1 className="text-md md:text-2xl font-bold uppercase text-stone-800">entah</h1>
