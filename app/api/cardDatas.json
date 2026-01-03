@@ -1,0 +1,87 @@
+[
+        {
+        "id": 1,
+        "judul": "Book Club Discussion",
+        "deskripsi":"Pertemuan rutin untuk membahas buku pilihan, berbagi perspektif, dan memperluas wawasan literasi.",
+        "link": "/",
+        "icon": "library",
+        "color" : "red"
+        },{
+        "id": 2,
+        "judul": "Gardening Day",
+        "deskripsi": "Aktivitas menanam dan merawat tanaman bersama, sekaligus belajar tentang keberlanjutan dan lingkungan",
+        "link": "/",
+        "icon": "flower-2",
+        "color": "yellow"
+        },{
+        "id": 3,
+        "judul": "Music Jam Session",
+        "deskripsi":"Sesi musik santai di mana peserta bebas memainkan instrumen atau bernyanyi bersama",
+        "link": "/",
+        "icon": "music",
+        "color" : "blue"
+        },{
+        "id": 4,
+        "judul": "Morning Yoga",
+        "deskripsi":"Aktivitas peregangan ringan di pagi hari untuk meningkatkan energi dan fokus sepanjang hari.",
+        "link": "/",
+        "icon": "zap",
+        "color" : "green"
+        },{
+        "id": 5,
+        "judul": "Team Building Games",
+        "deskripsi":"Permainan kelompok yang dirancang untuk memperkuat kerja sama, komunikasi, dan rasa kebersamaan.",
+        "link": "/",
+        "icon": "dices",
+        "color" : "orange"
+        },{
+        "id": 6,
+        "judul": "Coding Workshop",
+        "deskripsi":"Sesi belajar pemrograman dasar dengan praktik langsung menggunakan JavaScript dan HTML.",
+        "link": "/",
+        "icon": "code",
+        "color" : "purple"
+        },{
+        "id": 7,
+        "judul": "Art & Craft Session",
+        "deskripsi":"Aktivitas kreatif membuat kerajinan tangan sederhana seperti origami atau lukisan mini.",
+        "link": "/",
+        "icon": "brush",
+        "color" : "pink"
+        },{
+        "id": 8,
+        "judul": "Hiking Adventure",
+        "deskripsi":"Perjalanan mendaki bukit dengan rute menantang untuk melatih fisik dan menikmati alam",
+        "link": "/",
+        "icon": "mountain",
+        "color" : "red"
+        },{
+        "id": 9,
+        "judul": "Movie Night",
+        "deskripsi":"Menonton film bersama dengan suasana santai, lengkap dengan camilan dan diskusi ringan.",
+        "link": "/",
+        "icon": "popcorn",
+        "color" : "yellow"
+        },{
+        "id": 10,
+        "judul": "Language Exchange",
+        "deskripsi":"Pertemuan untuk berlatih bahasa asing dengan metode percakapan santai antar peserta.",
+        "link": "/",
+        "icon": "languages",
+        "color" : "blue"
+        },{
+        "id": 11,
+        "judul": "Cooking Class",
+        "deskripsi":"Belajar memasak resep sederhana dengan instruktur, sekaligus mencicipi hasil masakan bersama.",
+        "link": "/",
+        "icon": "chef-hat",
+        "color" : "green"
+        },{
+        "id": 12,
+        "judul": "Photography Walk",
+        "deskripsi":"Jalan-jalan sambil memotret objek menarik di sekitar, melatih sudut pandang dan kreativitas visual.",
+        "link": "/",
+        "icon": "camera",
+        "color" : "orange"
+        }
+]
