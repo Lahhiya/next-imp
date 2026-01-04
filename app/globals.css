@@ -14,6 +14,25 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@utility animate-shrink {
+  animation: shrink 1s ease-in-out ;
+}
+
+@keyframes shrink {
+  0%{
+    transform: scale(1);
+    rotate:-12deg;
+  }
+  50%{
+    transform: scale(0.8);
+    rotate:12deg;
+  }
+  100%{
+    transform: scale(1);
+    rotate:0deg;
+  }
+}
+
 body {
   --s: 50px; /* control the size*/
   --c1: #f9f9f9;
