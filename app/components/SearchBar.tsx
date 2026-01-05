@@ -1,15 +1,22 @@
 "use client";
 import { DynamicIcon } from "lucide-react/dynamic";
+import { motion } from "motion/react";
 
 export default function SearchBar({search,setSearch,handleRemove,favCount} : {search : string,setSearch : (search : string) => void,handleRemove : () => void,favCount : number}){
     return (
       <div className="flex justify-center items-center px-3 rounded-lg border-2 border-gray-600 gap-2">
         <div className="flex justify-center items-center">
-          <DynamicIcon
-            name="heart"
-            size={20}
-            className="duration-2000 rounded-lg m-1 text-pink-600  hover:animate-shrink transition-all"
-          ></DynamicIcon>
+          <motion.div
+          key={favCount}
+          animate={{ scale: [0.9, 0.8, 1,1.5,1], opacity: [0, 0.5, 1] }}
+          transition={{duration : 0.5}}
+          >
+            <DynamicIcon
+              name="heart"
+              size={20}
+              className="rounded-lg m-1 text-pink-600"
+            />
+          </motion.div>
           <span className="text-sm font-semibold">{favCount}</span>
         </div>
         <input
